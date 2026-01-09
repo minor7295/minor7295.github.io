@@ -1,0 +1,178 @@
+# Site
+repository: minor7295/minor7295.github.io
+url: https://minor7295.github.io
+# baseurl: ""
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 이건영
+title: Backend Engineer
+email: minor7295@gmail.com
+website: https://velog.io/@minor7295
+phone: 010-9415-6229
+
+# Social links
+github_username:  minor7295
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# About Section
+about_title: 소개
+about_profile_image: images/profile.jpg
+about_content: |
+  반복적으로 사람의 판단에 의존하던 운영 문제를 시스템 책임으로 전환해온 백엔드 엔지니어 이건영입니다. <br>
+  광고 운영 자동화, 데이터 파이프라인, 커머스 트래픽 처리 경험을 통해 <strong>운영 비용을 줄이고 매출 성장에 기여</strong>해왔습니다. <br>
+  기술 도입 자체보다 <strong>왜 이 문제가 발생했고, 어디까지 시스템이 책임져야 하는가</strong>를 먼저 정의합니다. <br><br>
+
+  광고·마케팅 도메인에서는 실시간 입찰과 예산 운영을 자동화하여 24시간 무중단 집행 구조를 만들었고, <br>
+  커머스 도메인에서는 검색·결제·정산의 병목과 정합성 문제를 개선해 사용자 이탈을 줄이고 거래액 성장을 이끌었습니다. <br><br>
+
+  가설 → 측정 → 구조 개선 → 재발 방지의 흐름으로 문제를 다루며, <br>
+  장애가 발생하지 않는 시스템보다 <strong>발생했을 때 즉시 원인을 추적할 수 있는 시스템</strong>을 지향합니다.
+
+content:
+
+  - title: 실무 경력
+    layout: list
+    content:
+      - title: Kidsnote
+        sub_title: Backend Engineer
+        caption: 2024.04 - 재직 중
+        description: |
+          - 커머스 도메인에서 검색·결제·정산 성능 및 정합성 문제 개선
+          - 검색 구조 재설계로 <mark>응답 속도 95% 개선</mark>, 구매 이탈률 <mark>10% 감소</mark>
+          - 결제·정산 로직 안정화로 <mark>전년 대비 거래액 89% 상승</mark>
+
+      - title: Ecomarketing
+        sub_title: Backend Engineer
+        caption: 2021.01 - 2024.03
+        description: |
+          - 광고 예산·입찰 운영 자동화 플랫폼 구축으로 <mark>24시간 무중단 운영</mark> 구조 전환
+          - 전사 광고 데이터 수집·가공 파이프라인 구축으로 의사결정 비용 감소
+          - 이미지 인식 기반 광고·업무 자동화로 반복 작업 제거
+
+  - title: 기술 역량
+    layout: list
+    content:
+      - title: Backend
+        description: |
+          - Python, Django REST Framework, FastAPI
+
+      - title: Data / Infra
+        description: |
+          - MySQL, Redis(Bitmap / SortedSet / JSON), Elasticsearch
+          - RabbitMQ, ECS, EKS, Step Functions, Argo Workflow
+
+      - title: Automation / ML 활용
+        description: |
+          - OCR, Detectron2, OpenCV, Pandas
+          - 광고·이미지·문서 처리 자동화에 활용
+
+  - title: Kidsnote 프로젝트 상세
+    layout: list
+    content:
+      - title: 커머스 검색 구조 개선
+        sub_title: 검색 응답 속도 95% 개선
+        caption: Django REST Framework, Elasticsearch, Redis, MySQL
+        description: |
+          **프로젝트 개요**<br>
+          상품 수 증가로 검색 응답 지연이 발생하며 구매 이탈이 증가하던 문제 개선
+
+          **문제 인식**<br>
+          - DB 조회·정렬 비용이 병목
+          - 검색 책임이 DB와 애플리케이션에 과도하게 분산
+
+          **해결**<br>
+          - Elasticsearch + Redis 기반 검색 구조로 전면 재설계
+          - 검색 책임 분리 및 캐시 전략 재정의
+
+          **기여 성과**<br>
+          - 검색 응답 속도 <mark>95% 개선</mark>
+          - 구매 이탈률 <mark>10% 감소</mark>
+
+      - title: 결제·정산 정합성 개선
+        sub_title: 거래액 89% 성장 기여
+        caption: Django REST Framework, MySQL, Redis
+        description: |
+          **프로젝트 개요**<br>
+          결제·정산 상태 불일치로 장애 추적이 어렵고 운영 리스크가 존재하던 문제 개선
+
+          **판단**<br>
+          - 장애를 막는 것보다, 발생 시 즉시 원인을 추적할 수 있는 구조가 더 중요하다고 판단
+
+          **해결**<br>
+          - 상태 변경 로직 분리
+          - 장애 지점별 관측 포인트 설계
+
+          **기여 성과**<br>
+          - 장애 대응 속도 개선
+          - 전년 대비 거래액 <mark>89% 상승</mark>
+
+  - title: Ecomarketing 프로젝트 상세
+    layout: list
+    content:
+      - title: 광고 운영 자동화 플랫폼 구축
+        sub_title: 24시간 무중단 집행 구조 전환
+        caption: Django REST Framework, RabbitMQ, MySQL, Kubernetes(EKS)
+        description: |
+          **프로젝트 개요**<br>
+          광고 예산·입찰 조정이 사람의 수작업에 의존해 야간·주말 인력 투입이 반복되던 문제 해결
+
+          **판단**<br>
+          - 운영 규칙을 사람이 지키는 구조가 아니라, 시스템이 실행해야 한다고 판단
+
+          **해결**<br>
+          - 성과 지표와 예측치를 기준으로 입찰·예산 자동 조정 시스템 설계
+          - 매체별 규칙을 추상화하여 신규 상품 추가 시 코드 수정 최소화
+
+          **기여 성과**<br>
+          - 월 수십 억 원 규모 광고비 집행 자동화
+          - 야간/휴일 운영 인력 투입 제거
+
+      - title: 전사 데이터 파이프라인 구축
+        sub_title: 광고·재고·성과 지표 통합
+        caption: FastAPI, ECS, Step Functions, Pandas
+        description: |
+          **프로젝트 개요**<br>
+          매체별로 분산된 광고·성과 데이터를 통합해 실시간 의사결정 지원
+
+          **해결**<br>
+          - API / 크롤링 / ETL 자동화
+          - 광고·재고·성과 지표를 하나의 뷰로 통합
+
+          **기여 성과**<br>
+          - 의사결정 소요 시간 단축
+          - 마케팅 운영팀의 지표 기반 전략 수립 가능
+
+      - title: 이미지 인식 기반 업무 자동화
+        sub_title: 반복 작업 제거
+        caption: Detectron2, OpenCV, OCR
+        description: |
+          **프로젝트 개요**<br>
+          광고 이미지 가공 및 문서 처리에 반복 작업이 과도하게 소요되던 문제 개선
+
+          **해결**<br>
+          - 이미지 인식 기반 광고 소재 자동 생성
+          - OCR 기반 발주서 자동 생성
+
+          **기여 성과**<br>
+          - 주당 수백 건 이미지·문서 처리 자동화
+          - 반복 작업 시간 대폭 절감
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

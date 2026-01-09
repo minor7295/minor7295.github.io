@@ -1,0 +1,21 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+// 프로필 이미지가 동그랗게 잘리지 않도록 스타일 오버라이드
+.about-section img,
+.about-profile-image,
+.profile-image,
+.profile img,
+img[src*="profile"] {
+  border-radius: 0 !important;
+  clip-path: none !important;
+  object-fit: contain !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
