@@ -67,7 +67,7 @@ content:
       - title: Data / Infra
         description: |
           - MySQL, Redis(Bitmap / SortedSet / JSON), Elasticsearch
-          - RabbitMQ, ECS, EKS, Step Functions, Argo Workflow
+          - RabbitMQ, ECS, Step Functions
 
       - title: Automation / ML 활용
         description: |
@@ -147,7 +147,7 @@ content:
     content:
       - title: 광고 운영 자동화 플랫폼 구축
         sub_title: 24시간 무중단 집행 구조 전환
-        caption: Django REST Framework, RabbitMQ, MySQL, Kubernetes(EKS)
+        caption: Django REST Framework, RabbitMQ, MySQL
         description: |
           **프로젝트 개요**<br>
           광고 예산·입찰 조정이 사람의 수작업에 의존해
