@@ -39,9 +39,9 @@ content:
         sub_title: Backend Engineer
         caption: 2024.04 - 재직 중
         description: |
-          - 커머스 도메인에서 검색·결제·정산 성능 및 정합성 문제 개선
-          - 검색 구조 재설계로 <mark>응답 속도 95% 개선</mark>, 구매 이탈률 <mark>10% 감소</mark>
-          - 결제·정산 로직 안정화로 <mark>전년 대비 거래액 89% 상승</mark>
+          - 커머스 도메인에서 검색, 결제 성능 및 정합성 문제 개선
+          - 검색 구조 재설계로 <mark>응답 속도 95% 개선</mark>
+          - 정기 결제 로직 안정화로 <mark>월 거래액 89% 상승</mark>
 
       - title: Ecomarketing
         sub_title: Backend Engineer
@@ -87,8 +87,7 @@ content:
           - 검색 책임 분리 및 캐시 전략 재정의
 
           **기여 성과**<br>
-          - 검색 응답 속도 <mark>95% 개선</mark>
-          - 구매 이탈률 <mark>10% 감소</mark>
+          - 검색 응답 속도 median <mark>6.1초 → 0.3초</mark> (95% 개선)
 
       - title: 결제·정산 정합성 개선
         sub_title: 거래액 89% 성장 기여
@@ -106,7 +105,7 @@ content:
 
           **기여 성과**<br>
           - 장애 대응 속도 개선
-          - 전년 대비 거래액 <mark>89% 상승</mark>
+          - 전년 대비 월 거래액 <mark>3천 7백만원 → 7천 백만원</mark> (89% 상승)
 
   - title: Ecomarketing 프로젝트 상세
     layout: list
