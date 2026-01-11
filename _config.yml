@@ -62,7 +62,7 @@ content:
     content:
       - title: Backend
         description: |
-          - Python, Django REST Framework, FastAPI
+          - Python, Django REST Framework, FastAPI, Java, Spring Boot
 
       - title: Data / Infra
         description: |
