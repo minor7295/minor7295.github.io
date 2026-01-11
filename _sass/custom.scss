@@ -1,38 +1,29 @@
-// 프로필 이미지 커스텀 스타일
-// 더 구체적인 선택자로 테마 스타일 오버라이드
-// 모든 가능한 선택자 포함
-
-.about-section img,
-.about-profile-image,
-.profile-image,
-.profile img,
-img[src*="profile"],
-.about img,
-section.about img,
-.about-content img,
-.about-profile img,
-#about img,
-.about-profile-image img,
-img[alt*="profile"],
-img[alt*="Profile"],
-section img[src*="profile"],
-.about-section .profile-image,
-.about .profile-image {
+// .profile-img 클래스에 대한 border-radius 제거 (background-image를 사용하는 요소)
+.profile-img {
   border-radius: 0 !important;
-  clip-path: none !important;
-  -webkit-clip-path: none !important;
-  object-fit: contain !important;
-  width: auto !important;
-  height: auto !important;
-  max-width: 100% !important;
+  -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 
-// 모든 이미지에 대해 더 포괄적으로 적용 (필요시 주석 해제)
-// img {
-//   border-radius: 0 !important;
-//   clip-path: none !important;
-//   -webkit-clip-path: none !important;
-// }
+// justify-content: start 적용 및 줄바꿈 설정 (한국어 단어는 깨지지 않음)
+.layout .details {
+  justify-content: start !important;
+  word-break: keep-all;
+}
 
+// 인쇄 시 세로 방향(portrait) 설정 및 텍스트 줄바꿈
+@media print {
+  @page {
+    size: portrait;
+  }
+  
+  // 인쇄 시 Bootstrap 그리드 클래스가 작동하도록 명시적으로 설정
+  .layout .details {
+    width: 25% !important;
+  }
+}
+
+.layout .content {
+  width: 75% !important;
+}
