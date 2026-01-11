@@ -49,12 +49,11 @@ content:
         sub_title: Backend Engineer
         caption: 2021.01 - 2024.03
         description: |
-          - 광고 예산·입찰 운영 자동화 플랫폼 구축으로
+          - 광고 운영 자동화 플랫폼 구축으로
             <mark>24시간 무중단 운영</mark> 구조 전환
-          - 월 <mark>1만 건 이상</mark> 광고 소재 운영 자동화로
-            하루 평균 <mark>5시간 이상</mark> 반복 작업 제거
-          - 전사 광고 데이터 수집·가공 파이프라인을 설계·구현하여
-            데이터 기반 의사결정 환경 구축
+          - 광고 세팅 자동화로 월 <mark>1만 건 이상</mark>,
+            일 평균 <mark>5시간 이상</mark>의 업무 절감
+          - 광고 데이터 ETL 설계,구현하여 데이터 기반 의사결정 환경 구축
           - 이미지 인식 기반 자동화로 광고 운영의 수작업 의존도 제거
 
   - title: 기술 역량
@@ -69,10 +68,9 @@ content:
           - MySQL, Redis(Bitmap / SortedSet / JSON), Elasticsearch
           - RabbitMQ, ECS, Step Functions
 
-      - title: Automation / ML 활용
+      - title: AI / ML 활용
         description: |
-          - OCR, Detectron2, OpenCV, Pandas
-          - 광고·이미지·문서 처리 자동화에 활용
+          - Detectron2, OpenCV, ChatGPT
 
   - title: Kidsnote 프로젝트 상세
     layout: list
