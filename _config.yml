@@ -91,7 +91,7 @@ content:
 
       - title: 결제·정산 정합성 및 운영 안정성 개선
         sub_title: 거래액 89% 성장, 차액 환불 93% 감소
-        caption: Django REST Framework, MySQL, Redis, OpenAI GPT-4o-mini
+        caption: Django REST Framework, MySQL, Redis, OpenAI GPT
         description: |
           **프로젝트 개요**<br>
           도메인 경계 불명확과 사람의 판단 의존으로 발생하던 정합성 문제를 시스템 책임으로 전환
