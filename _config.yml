@@ -190,6 +190,15 @@ content:
           - 주당 수백 건 이미지·문서 처리 자동화
           - 반복 작업 시간 대폭 절감
 
+  - title: 개인 활동
+    layout: list
+    content:
+      - title: 블로그 주요 글
+        description: |
+          - <a href="https://velog.io/@minor7295/MAU-250%EB%A7%8C-13%EB%85%84-%EB%90%9C-%EB%A0%88%EA%B1%B0%EC%8B%9C%EC%9D%98-%EC%95%95%EB%B0%95-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C%EB%A1%9C-%EA%B7%B9%EB%B3%B5%ED%95%98%EA%B8%B0" target="_blank">MAU 250만, 13년 된 레거시의 압박, 테스트 코드로 극복하기</a>
+          - <a href="https://velog.io/@minor7295/%ED%95%AB%ED%94%BD%EC%8A%A4%EC%9A%94-%EC%9D%B4%EA%B1%B0-%ED%98%91%EC%9D%98%EB%90%9C-%EC%8A%A4%ED%8E%99%EC%9D%B8%EB%8D%B0%EC%9A%94" target="_blank">핫픽스요? 이거 협의된 스펙인데요?</a>
+          - <a href="https://velog.io/@minor7295/DBA%EB%8A%94-%EC%99%9C-%EB%B9%84%EA%B4%80%EC%A0%81-%EB%9D%BD%EA%B3%BC-%EC%9C%A0%EB%8B%88%ED%81%AC-%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%EB%B0%98%EB%8C%80%ED%96%88%EC%9D%84%EA%B9%8C" target="_blank">DBA는 왜 비관적 락과 유니크 인덱스를 반대했을까?</a>
+
 # Footer
 footer_show_references: false
 # references_title: References on request (Override references text)
